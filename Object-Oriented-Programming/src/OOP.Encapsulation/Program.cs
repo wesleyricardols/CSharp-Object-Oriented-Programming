@@ -22,4 +22,13 @@ helicopter.Drive();
 helicopter.Stop();
 helicopter.ChangeAltitude(15000);
 
+Console.WriteLine("-------------------------------------------\n");
+
+var airplane = new Airplane("Boeing", "777", 2020, 500, 4);
+airplane.StartEngine();
+airplane.Drive();
+airplane.Stop();
+airplane.TakeOff();
+airplane.Land();
+
 Console.ReadLine();

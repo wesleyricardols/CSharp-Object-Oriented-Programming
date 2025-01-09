@@ -10,8 +10,8 @@
             Console.WriteLine("Starting Vehicle Type Helicopter");
         }
 
-        public int NumberOfRotorBlades { get; set; }
-        public bool HasHoverMode { get; set; }
+        private int NumberOfRotorBlades { get; set; }
+        private bool HasHoverMode { get; set; }
 
         public override void StartEngine()
         {
