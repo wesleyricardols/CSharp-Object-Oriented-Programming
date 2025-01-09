@@ -43,4 +43,21 @@ helicopter.StartEngine();
 helicopter.Drive();
 helicopter.ChangeAltitude(15000);
 
+Console.WriteLine("-------------------------------------------\n");
+
+Console.WriteLine("Starting Vehicle Type Airplane");
+var airplane = new Airplane
+{
+    Brand = "Boeing",
+    Model = "777",
+    Year = 2020,
+    NumberOfPassengers = 500,
+    NumberOfEngines = 4
+};
+
+airplane.StartEngine();
+airplane.Drive();
+airplane.TakeOff();
+airplane.Land();
+
 Console.ReadLine();
